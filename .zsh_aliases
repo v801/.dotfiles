@@ -1,0 +1,41 @@
+# ls
+alias ls="ls --color=auto"
+alias ll="ls -lhFG"
+alias la="ls -lahG"
+alias l="ls -CFG"
+
+# grep
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="egrep --color=auto"
+
+# system
+alias wsldown="wsl.exe --shutdown"
+alias zs=". ~/.zshrc"
+alias aptup="sudo apt update && sudo apt upgrade"
+alias neofetch="$HOME/build/bash-scripts/ascii-art/wslfetch.sh"
+
+# net
+alias pong="ping -c 3 www.google.com"
+alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias weather="curl 'wttr.in/?nq0'"
+
+# mirrors websites with wget, example: 'siteget . www.url.com'
+alias siteget="wget --mirror -p --convert-links -P"
+
+# programs
+alias j="~/tools/JohnTheRipper/run/john"
+alias v="nvim"
+alias m="mutt"
+
+# git
+alias gc="git commit -m"
+alias gap="git add -p"
+alias gph="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias gst="git stash"
+alias gstp="git stash -pop"
+alias gf="git fetch"
+alias gl="git lg3"
+alias gcp="git cherry-pick"
