@@ -54,6 +54,9 @@ if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
 
+GPG_TTY=$(tty)
+export GPG_TTY
+
 # NAVI WIDGET
 # source <(echo "$(navi widget zsh)")
 
