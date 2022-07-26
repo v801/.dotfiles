@@ -3,7 +3,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 zstyle ':vcs_info:git:*' formats '(%b)'
 setopt PROMPT_SUBST
-PROMPT='%F{blue}%n@%m%f%F{green}:%~%f %F{104}${vcs_info_msg_0_}%f 
+PROMPT='%F{blue}%n@%m%f %F{green}%~%f %F{104}${vcs_info_msg_0_}%f 
 %F{215}%#%f '
 
 setopt histignorealldups sharehistory
