@@ -1,14 +1,10 @@
 # Set up the prompt
 autoload -Uz vcs_info
 precmd() { vcs_info }
-zstyle ':vcs_info:git:*' formats '%b '
+zstyle ':vcs_info:git:*' formats '(%b)'
 setopt PROMPT_SUBST
-PROMPT='%F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
-
-# autoload -Uz promptinit
-# promptinit
-# prompt elite2
-#PROMPT='%(?.%F{green}.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
+PROMPT='%F{blue}%n@%m%f%F{green}:%~%f %F{104}${vcs_info_msg_0_}%f 
+%F{215}%#%f '
 
 setopt histignorealldups sharehistory
 
