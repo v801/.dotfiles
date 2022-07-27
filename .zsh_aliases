@@ -13,7 +13,7 @@ alias egrep="egrep --color=auto"
 alias wsldown="wsl.exe --shutdown"
 alias zs=". ~/.zshrc"
 alias aptup="sudo apt update && sudo apt upgrade"
-alias neofetch="$HOME/code/bash-scripts/ascii-art/wslfetch.sh"
+alias neofetch="$HOME/code/bash-scripts/system/wslfetch.sh"
 
 # net
 alias pong="ping -c 3 www.google.com"
