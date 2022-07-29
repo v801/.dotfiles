@@ -26,6 +26,7 @@ alias weather="curl 'wttr.in/?nq0'"
 alias siteget="wget --mirror -p --convert-links -P"
 
 # programs
+alias cat="bat"
 alias j="~/tools/JohnTheRipper/run/john"
 alias v="nvim"
 alias m="mutt"
