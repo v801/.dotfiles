@@ -53,8 +53,8 @@ fi
 GPG_TTY=$(tty)
 export GPG_TTY
 
-# NAVI WIDGET
-# source <(echo "$(navi widget zsh)")
+# NAVI WIDGET / Keybind: Ctrl+G
+source <(echo "$(navi widget zsh)")
 
 # NVM (Node)
 export NVM_DIR="$HOME/.nvm"
