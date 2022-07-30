@@ -31,7 +31,6 @@ fi
 GPG_TTY=$(tty)
 export GPG_TTY
 
-
 source $HOME/.asdf/asdf.sh
 # append completions to fpath
 fpath=(${ASDF_DIR}/completions $fpath)
