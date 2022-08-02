@@ -1,13 +1,9 @@
-# ls
+# files
 alias ls="ls --color=auto"
 alias ll="ls -lhFG"
 alias la="ls -lahG"
 alias l="ls -CFG"
-
-# grep
 alias grep='grep --color=auto --exclude-dir=".git" --exclude-dir="node_modules"'
-alias fgrep="fgrep --color=auto"
-alias egrep="egrep --color=auto"
 
 # system
 alias wsldown="wsl.exe --shutdown"
