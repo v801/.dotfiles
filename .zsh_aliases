@@ -3,6 +3,7 @@ alias ls="ls --color=auto"
 alias ll="ls -lhFG"
 alias la="ls -lahG"
 alias l="ls -CFG"
+alias mkdir="mkdir --parents"
 alias grep='grep --color=auto --exclude-dir=".git" --exclude-dir="node_modules"'
 
 # system
