@@ -10,7 +10,7 @@ alias grep='grep --color=auto --exclude-dir=".git" --exclude-dir="node_modules"'
 alias wsldown="wsl.exe --shutdown"
 alias zs=". ~/.zshrc"
 alias aptup="sudo apt update && sudo apt upgrade"
-alias neofetch="$HOME/code/bash-scripts/system/wslfetch.sh"
+alias neofetch="$HOME/code/bash-scripts/system/neofetch.sh"
 alias sshallow="sudo ufw allow ssh"
 alias sshdeny="sudo ufw deny ssh"
 
